@@ -1,0 +1,1720 @@
+{
+  "datasets": {
+    "customers": {
+      "column_count": 7,
+      "columns": {
+        "created_date": {
+          "duplicate_value_count": 419,
+          "max": "2025-06-29",
+          "min": "2022-01-01",
+          "null_count": 0,
+          "numeric_summary": null,
+          "top_values": [
+            {
+              "count": 5,
+              "value": "2022-03-12"
+            },
+            {
+              "count": 5,
+              "value": "2024-10-03"
+            },
+            {
+              "count": 4,
+              "value": "2022-01-28"
+            },
+            {
+              "count": 4,
+              "value": "2022-02-26"
+            },
+            {
+              "count": 4,
+              "value": "2022-12-04"
+            },
+            {
+              "count": 4,
+              "value": "2022-12-18"
+            },
+            {
+              "count": 4,
+              "value": "2023-05-10"
+            },
+            {
+              "count": 4,
+              "value": "2023-05-11"
+            },
+            {
+              "count": 4,
+              "value": "2023-08-09"
+            },
+            {
+              "count": 4,
+              "value": "2023-09-25"
+            }
+          ],
+          "unique_count": 786
+        },
+        "crm_status": {
+          "duplicate_value_count": 1203,
+          "max": "INACTIVE",
+          "min": "ACTIVE",
+          "null_count": 0,
+          "numeric_summary": null,
+          "top_values": [
+            {
+              "count": 1112,
+              "value": "ACTIVE"
+            },
+            {
+              "count": 93,
+              "value": "INACTIVE"
+            }
+          ],
+          "unique_count": 2
+        },
+        "customer_id": {
+          "duplicate_value_count": 5,
+          "max": "CUS001200",
+          "min": "CUS000001",
+          "null_count": 0,
+          "numeric_summary": null,
+          "top_values": [
+            {
+              "count": 2,
+              "value": "CUS000115"
+            },
+            {
+              "count": 2,
+              "value": "CUS000486"
+            },
+            {
+              "count": 2,
+              "value": "CUS000815"
+            },
+            {
+              "count": 2,
+              "value": "CUS000860"
+            },
+            {
+              "count": 2,
+              "value": "CUS001151"
+            },
+            {
+              "count": 1,
+              "value": "CUS000001"
+            },
+            {
+              "count": 1,
+              "value": "CUS000002"
+            },
+            {
+              "count": 1,
+              "value": "CUS000003"
+            },
+            {
+              "count": 1,
+              "value": "CUS000004"
+            },
+            {
+              "count": 1,
+              "value": "CUS000005"
+            }
+          ],
+          "unique_count": 1200
+        },
+        "customer_name": {
+          "duplicate_value_count": 5,
+          "max": "Synthetic Customer Organization 1200",
+          "min": "Synthetic Customer Organization 0001",
+          "null_count": 0,
+          "numeric_summary": null,
+          "top_values": [
+            {
+              "count": 2,
+              "value": "Synthetic Customer Organization 0115"
+            },
+            {
+              "count": 2,
+              "value": "Synthetic Customer Organization 0486"
+            },
+            {
+              "count": 2,
+              "value": "Synthetic Customer Organization 0815"
+            },
+            {
+              "count": 2,
+              "value": "Synthetic Customer Organization 0860"
+            },
+            {
+              "count": 2,
+              "value": "Synthetic Customer Organization 1151"
+            },
+            {
+              "count": 1,
+              "value": "Synthetic Customer Organization 0001"
+            },
+            {
+              "count": 1,
+              "value": "Synthetic Customer Organization 0002"
+            },
+            {
+              "count": 1,
+              "value": "Synthetic Customer Organization 0003"
+            },
+            {
+              "count": 1,
+              "value": "Synthetic Customer Organization 0004"
+            },
+            {
+              "count": 1,
+              "value": "Synthetic Customer Organization 0005"
+            }
+          ],
+          "unique_count": 1200
+        },
+        "customer_segment": {
+          "duplicate_value_count": 1199,
+          "max": "small business",
+          "min": "ENTERPRISE",
+          "null_count": 0,
+          "numeric_summary": null,
+          "top_values": [
+            {
+              "count": 644,
+              "value": "SMB"
+            },
+            {
+              "count": 367,
+              "value": "MID_MARKET"
+            },
+            {
+              "count": 170,
+              "value": "ENTERPRISE"
+            },
+            {
+              "count": 18,
+              "value": "small business"
+            },
+            {
+              "count": 3,
+              "value": "Mid Market"
+            },
+            {
+              "count": 3,
+              "value": "enterprise "
+            }
+          ],
+          "unique_count": 6
+        },
+        "region": {
+          "duplicate_value_count": 1189,
+          "max": "WEST",
+          "min": "EAST",
+          "null_count": 12,
+          "numeric_summary": null,
+          "top_values": [
+            {
+              "count": 318,
+              "value": "EAST"
+            },
+            {
+              "count": 308,
+              "value": "WEST"
+            },
+            {
+              "count": 290,
+              "value": "NORTH"
+            },
+            {
+              "count": 277,
+              "value": "SOUTH"
+            }
+          ],
+          "unique_count": 4
+        },
+        "source_system": {
+          "duplicate_value_count": 1204,
+          "max": "SYNTHETIC_CRM",
+          "min": "SYNTHETIC_CRM",
+          "null_count": 0,
+          "numeric_summary": null,
+          "top_values": [
+            {
+              "count": 1205,
+              "value": "SYNTHETIC_CRM"
+            }
+          ],
+          "unique_count": 1
+        }
+      },
+      "duplicate_primary_key_count": 5,
+      "duplicate_row_count": 5,
+      "primary_key": "customer_id",
+      "row_count": 1205
+    },
+    "finance_transactions": {
+      "column_count": 8,
+      "columns": {
+        "currency": {
+          "duplicate_value_count": 8005,
+          "max": "USD",
+          "min": "USD",
+          "null_count": 0,
+          "numeric_summary": null,
+          "top_values": [
+            {
+              "count": 8006,
+              "value": "USD"
+            }
+          ],
+          "unique_count": 1
+        },
+        "finance_transaction_id": {
+          "duplicate_value_count": 6,
+          "max": "FIN0008000",
+          "min": "FIN0000001",
+          "null_count": 0,
+          "numeric_summary": null,
+          "top_values": [
+            {
+              "count": 2,
+              "value": "FIN0000482"
+            },
+            {
+              "count": 2,
+              "value": "FIN0001360"
+            },
+            {
+              "count": 2,
+              "value": "FIN0003861"
+            },
+            {
+              "count": 2,
+              "value": "FIN0003932"
+            },
+            {
+              "count": 2,
+              "value": "FIN0004420"
+            },
+            {
+              "count": 2,
+              "value": "FIN0007764"
+            },
+            {
+              "count": 1,
+              "value": "FIN0000001"
+            },
+            {
+              "count": 1,
+              "value": "FIN0000002"
+            },
+            {
+              "count": 1,
+              "value": "FIN0000003"
+            },
+            {
+              "count": 1,
+              "value": "FIN0000004"
+            }
+          ],
+          "unique_count": 8000
+        },
+        "order_id": {
+          "duplicate_value_count": 6,
+          "max": "ORD_UNKNOWN_7521",
+          "min": "ORD0000001",
+          "null_count": 0,
+          "numeric_summary": null,
+          "top_values": [
+            {
+              "count": 2,
+              "value": "ORD0000482"
+            },
+            {
+              "count": 2,
+              "value": "ORD0001360"
+            },
+            {
+              "count": 2,
+              "value": "ORD0003861"
+            },
+            {
+              "count": 2,
+              "value": "ORD0003932"
+            },
+            {
+              "count": 2,
+              "value": "ORD0004420"
+            },
+            {
+              "count": 2,
+              "value": "ORD0007764"
+            },
+            {
+              "count": 1,
+              "value": "ORD0000001"
+            },
+            {
+              "count": 1,
+              "value": "ORD0000002"
+            },
+            {
+              "count": 1,
+              "value": "ORD0000003"
+            },
+            {
+              "count": 1,
+              "value": "ORD0000004"
+            }
+          ],
+          "unique_count": 8000
+        },
+        "posted_date": {
+          "duplicate_value_count": 7635,
+          "max": "31/31/2025",
+          "min": "2025-01-01",
+          "null_count": 0,
+          "numeric_summary": null,
+          "top_values": [
+            {
+              "count": 34,
+              "value": "2025-12-22"
+            },
+            {
+              "count": 33,
+              "value": "2025-01-19"
+            },
+            {
+              "count": 33,
+              "value": "2025-01-28"
+            },
+            {
+              "count": 33,
+              "value": "2025-01-29"
+            },
+            {
+              "count": 33,
+              "value": "2025-07-19"
+            },
+            {
+              "count": 32,
+              "value": "2025-04-03"
+            },
+            {
+              "count": 31,
+              "value": "2025-04-19"
+            },
+            {
+              "count": 31,
+              "value": "2025-05-02"
+            },
+            {
+              "count": 31,
+              "value": "2025-05-14"
+            },
+            {
+              "count": 31,
+              "value": "2025-06-18"
+            }
+          ],
+          "unique_count": 371
+        },
+        "posting_status": {
+          "duplicate_value_count": 8004,
+          "max": "POSTED",
+          "min": "PENDING",
+          "null_count": 0,
+          "numeric_summary": null,
+          "top_values": [
+            {
+              "count": 7764,
+              "value": "POSTED"
+            },
+            {
+              "count": 242,
+              "value": "PENDING"
+            }
+          ],
+          "unique_count": 2
+        },
+        "source_system": {
+          "duplicate_value_count": 8005,
+          "max": "SYNTHETIC_FINANCE_LEDGER",
+          "min": "SYNTHETIC_FINANCE_LEDGER",
+          "null_count": 0,
+          "numeric_summary": null,
+          "top_values": [
+            {
+              "count": 8006,
+              "value": "SYNTHETIC_FINANCE_LEDGER"
+            }
+          ],
+          "unique_count": 1
+        },
+        "transaction_amount": {
+          "duplicate_value_count": 735,
+          "max": "9993.45",
+          "min": "-10047.53",
+          "null_count": 0,
+          "numeric_summary": {
+            "count": 8006,
+            "max": 492527.83,
+            "mean": 15576.0333,
+            "min": -358416.56,
+            "sum": 124701722.86
+          },
+          "top_values": [
+            {
+              "count": 726,
+              "value": "0.00"
+            },
+            {
+              "count": 2,
+              "value": "10803.07"
+            },
+            {
+              "count": 2,
+              "value": "11039.81"
+            },
+            {
+              "count": 2,
+              "value": "11572.33"
+            },
+            {
+              "count": 2,
+              "value": "13093.53"
+            },
+            {
+              "count": 2,
+              "value": "1377.96"
+            },
+            {
+              "count": 2,
+              "value": "16791.63"
+            },
+            {
+              "count": 2,
+              "value": "23484.33"
+            },
+            {
+              "count": 2,
+              "value": "32140.35"
+            },
+            {
+              "count": 2,
+              "value": "5067.41"
+            }
+          ],
+          "unique_count": 7271
+        },
+        "transaction_type": {
+          "duplicate_value_count": 8000,
+          "max": "sale ",
+          "min": "ADJUSTMENT",
+          "null_count": 0,
+          "numeric_summary": null,
+          "top_values": [
+            {
+              "count": 6771,
+              "value": "SALE"
+            },
+            {
+              "count": 720,
+              "value": "ADJUSTMENT"
+            },
+            {
+              "count": 500,
+              "value": "REFUND"
+            },
+            {
+              "count": 12,
+              "value": "sale "
+            },
+            {
+              "count": 2,
+              "value": "Credit"
+            },
+            {
+              "count": 1,
+              "value": "adjustment"
+            }
+          ],
+          "unique_count": 6
+        }
+      },
+      "duplicate_primary_key_count": 6,
+      "duplicate_row_count": 6,
+      "primary_key": "finance_transaction_id",
+      "row_count": 8006
+    },
+    "orders": {
+      "column_count": 11,
+      "columns": {
+        "channel": {
+          "duplicate_value_count": 8005,
+          "max": "PARTNER",
+          "min": "DIRECT",
+          "null_count": 0,
+          "numeric_summary": null,
+          "top_values": [
+            {
+              "count": 2706,
+              "value": "DIRECT"
+            },
+            {
+              "count": 2671,
+              "value": "PARTNER"
+            },
+            {
+              "count": 2631,
+              "value": "ONLINE"
+            }
+          ],
+          "unique_count": 3
+        },
+        "customer_id": {
+          "duplicate_value_count": 6785,
+          "max": "CUS_UNKNOWN_7613",
+          "min": "CUS000001",
+          "null_count": 10,
+          "numeric_summary": null,
+          "top_values": [
+            {
+              "count": 17,
+              "value": "CUS000711"
+            },
+            {
+              "count": 16,
+              "value": "CUS000165"
+            },
+            {
+              "count": 16,
+              "value": "CUS000874"
+            },
+            {
+              "count": 15,
+              "value": "CUS000013"
+            },
+            {
+              "count": 15,
+              "value": "CUS000393"
+            },
+            {
+              "count": 15,
+              "value": "CUS000425"
+            },
+            {
+              "count": 15,
+              "value": "CUS000496"
+            },
+            {
+              "count": 14,
+              "value": "CUS000256"
+            },
+            {
+              "count": 14,
+              "value": "CUS000976"
+            },
+            {
+              "count": 14,
+              "value": "CUS001182"
+            }
+          ],
+          "unique_count": 1213
+        },
+        "discount_rate": {
+          "duplicate_value_count": 5864,
+          "max": "0.2200",
+          "min": "0.0000",
+          "null_count": 0,
+          "numeric_summary": {
+            "count": 8008,
+            "max": 0.22,
+            "mean": 0.1098,
+            "min": 0.0,
+            "sum": 879.49
+          },
+          "top_values": [
+            {
+              "count": 11,
+              "value": "0.0119"
+            },
+            {
+              "count": 11,
+              "value": "0.1203"
+            },
+            {
+              "count": 11,
+              "value": "0.1725"
+            },
+            {
+              "count": 10,
+              "value": "0.0631"
+            },
+            {
+              "count": 10,
+              "value": "0.0774"
+            },
+            {
+              "count": 10,
+              "value": "0.0813"
+            },
+            {
+              "count": 10,
+              "value": "0.0959"
+            },
+            {
+              "count": 10,
+              "value": "0.1158"
+            },
+            {
+              "count": 10,
+              "value": "0.1547"
+            },
+            {
+              "count": 10,
+              "value": "0.1625"
+            }
+          ],
+          "unique_count": 2144
+        },
+        "order_amount": {
+          "duplicate_value_count": 22,
+          "max": "9993.45",
+          "min": "-188.30",
+          "null_count": 0,
+          "numeric_summary": {
+            "count": 8008,
+            "max": 511176.33,
+            "mean": 19647.0718,
+            "min": -638.13,
+            "sum": 157333750.96
+          },
+          "top_values": [
+            {
+              "count": 8,
+              "value": "0.00"
+            },
+            {
+              "count": 2,
+              "value": "11282.08"
+            },
+            {
+              "count": 2,
+              "value": "11572.33"
+            },
+            {
+              "count": 2,
+              "value": "13093.53"
+            },
+            {
+              "count": 2,
+              "value": "1377.96"
+            },
+            {
+              "count": 2,
+              "value": "16981.54"
+            },
+            {
+              "count": 2,
+              "value": "18308.33"
+            },
+            {
+              "count": 2,
+              "value": "21761.30"
+            },
+            {
+              "count": 2,
+              "value": "2254.76"
+            },
+            {
+              "count": 2,
+              "value": "22855.05"
+            }
+          ],
+          "unique_count": 7986
+        },
+        "order_date": {
+          "duplicate_value_count": 7642,
+          "max": "2025-13-40",
+          "min": "2025-01-01",
+          "null_count": 0,
+          "numeric_summary": null,
+          "top_values": [
+            {
+              "count": 35,
+              "value": "2025-04-28"
+            },
+            {
+              "count": 34,
+              "value": "2025-10-29"
+            },
+            {
+              "count": 33,
+              "value": "2025-10-30"
+            },
+            {
+              "count": 31,
+              "value": "2025-01-23"
+            },
+            {
+              "count": 31,
+              "value": "2025-03-25"
+            },
+            {
+              "count": 31,
+              "value": "2025-03-31"
+            },
+            {
+              "count": 31,
+              "value": "2025-04-19"
+            },
+            {
+              "count": 31,
+              "value": "2025-05-12"
+            },
+            {
+              "count": 31,
+              "value": "2025-10-28"
+            },
+            {
+              "count": 30,
+              "value": "2025-01-07"
+            }
+          ],
+          "unique_count": 366
+        },
+        "order_id": {
+          "duplicate_value_count": 8,
+          "max": "ORD0008000",
+          "min": "ORD0000001",
+          "null_count": 0,
+          "numeric_summary": null,
+          "top_values": [
+            {
+              "count": 2,
+              "value": "ORD0001825"
+            },
+            {
+              "count": 2,
+              "value": "ORD0002040"
+            },
+            {
+              "count": 2,
+              "value": "ORD0003133"
+            },
+            {
+              "count": 2,
+              "value": "ORD0003387"
+            },
+            {
+              "count": 2,
+              "value": "ORD0003802"
+            },
+            {
+              "count": 2,
+              "value": "ORD0004378"
+            },
+            {
+              "count": 2,
+              "value": "ORD0004843"
+            },
+            {
+              "count": 2,
+              "value": "ORD0007002"
+            },
+            {
+              "count": 1,
+              "value": "ORD0000001"
+            },
+            {
+              "count": 1,
+              "value": "ORD0000002"
+            }
+          ],
+          "unique_count": 8000
+        },
+        "order_status": {
+          "duplicate_value_count": 8000,
+          "max": "shipped ",
+          "min": "CANCELLED",
+          "null_count": 0,
+          "numeric_summary": null,
+          "top_values": [
+            {
+              "count": 5631,
+              "value": "COMPLETED"
+            },
+            {
+              "count": 1136,
+              "value": "SHIPPED"
+            },
+            {
+              "count": 720,
+              "value": "CANCELLED"
+            },
+            {
+              "count": 501,
+              "value": "RETURNED"
+            },
+            {
+              "count": 14,
+              "value": "complete"
+            },
+            {
+              "count": 3,
+              "value": "Return"
+            },
+            {
+              "count": 2,
+              "value": "shipped "
+            },
+            {
+              "count": 1,
+              "value": "canceled"
+            }
+          ],
+          "unique_count": 8
+        },
+        "product_id": {
+          "duplicate_value_count": 7876,
+          "max": "PRD_UNKNOWN_7989",
+          "min": "PRD0001",
+          "null_count": 0,
+          "numeric_summary": null,
+          "top_values": [
+            {
+              "count": 83,
+              "value": "PRD0089"
+            },
+            {
+              "count": 82,
+              "value": "PRD0116"
+            },
+            {
+              "count": 81,
+              "value": "PRD0001"
+            },
+            {
+              "count": 81,
+              "value": "PRD0115"
+            },
+            {
+              "count": 81,
+              "value": "PRD0120"
+            },
+            {
+              "count": 80,
+              "value": "PRD0020"
+            },
+            {
+              "count": 80,
+              "value": "PRD0033"
+            },
+            {
+              "count": 80,
+              "value": "PRD0078"
+            },
+            {
+              "count": 79,
+              "value": "PRD0024"
+            },
+            {
+              "count": 79,
+              "value": "PRD0058"
+            }
+          ],
+          "unique_count": 132
+        },
+        "quantity": {
+          "duplicate_value_count": 7978,
+          "max": "96",
+          "min": "0",
+          "null_count": 0,
+          "numeric_summary": {
+            "count": 8008,
+            "max": 140.0,
+            "mean": 6.6223,
+            "min": 0.0,
+            "sum": 53031.0
+          },
+          "top_values": [
+            {
+              "count": 722,
+              "value": "3"
+            },
+            {
+              "count": 715,
+              "value": "1"
+            },
+            {
+              "count": 698,
+              "value": "5"
+            },
+            {
+              "count": 672,
+              "value": "2"
+            },
+            {
+              "count": 670,
+              "value": "11"
+            },
+            {
+              "count": 667,
+              "value": "9"
+            },
+            {
+              "count": 666,
+              "value": "4"
+            },
+            {
+              "count": 653,
+              "value": "8"
+            },
+            {
+              "count": 640,
+              "value": "12"
+            },
+            {
+              "count": 634,
+              "value": "6"
+            }
+          ],
+          "unique_count": 30
+        },
+        "source_system": {
+          "duplicate_value_count": 8007,
+          "max": "SYNTHETIC_ORDER_PLATFORM",
+          "min": "SYNTHETIC_ORDER_PLATFORM",
+          "null_count": 0,
+          "numeric_summary": null,
+          "top_values": [
+            {
+              "count": 8008,
+              "value": "SYNTHETIC_ORDER_PLATFORM"
+            }
+          ],
+          "unique_count": 1
+        },
+        "unit_price": {
+          "duplicate_value_count": 7888,
+          "max": "985.63",
+          "min": "1053.32",
+          "null_count": 0,
+          "numeric_summary": {
+            "count": 8008,
+            "max": 42208.86,
+            "mean": 3356.7765,
+            "min": 155.25,
+            "sum": 26881065.91
+          },
+          "top_values": [
+            {
+              "count": 83,
+              "value": "4377.91"
+            },
+            {
+              "count": 82,
+              "value": "853.00"
+            },
+            {
+              "count": 81,
+              "value": "1630.02"
+            },
+            {
+              "count": 81,
+              "value": "2180.52"
+            },
+            {
+              "count": 81,
+              "value": "2349.06"
+            },
+            {
+              "count": 81,
+              "value": "3277.75"
+            },
+            {
+              "count": 80,
+              "value": "1636.38"
+            },
+            {
+              "count": 80,
+              "value": "3019.57"
+            },
+            {
+              "count": 79,
+              "value": "1341.14"
+            },
+            {
+              "count": 79,
+              "value": "1353.88"
+            }
+          ],
+          "unique_count": 120
+        }
+      },
+      "duplicate_primary_key_count": 8,
+      "duplicate_row_count": 8,
+      "primary_key": "order_id",
+      "row_count": 8008
+    },
+    "products": {
+      "column_count": 7,
+      "columns": {
+        "active_flag": {
+          "duplicate_value_count": 121,
+          "max": "Y",
+          "min": "N",
+          "null_count": 0,
+          "numeric_summary": null,
+          "top_values": [
+            {
+              "count": 119,
+              "value": "Y"
+            },
+            {
+              "count": 4,
+              "value": "N"
+            }
+          ],
+          "unique_count": 2
+        },
+        "product_category": {
+          "duplicate_value_count": 112,
+          "max": "hardware ",
+          "min": "CLOUD",
+          "null_count": 0,
+          "numeric_summary": null,
+          "top_values": [
+            {
+              "count": 21,
+              "value": "CLOUD"
+            },
+            {
+              "count": 20,
+              "value": "HARDWARE"
+            },
+            {
+              "count": 20,
+              "value": "SOFTWARE"
+            },
+            {
+              "count": 17,
+              "value": "SERVICES"
+            },
+            {
+              "count": 16,
+              "value": "SECURITY"
+            },
+            {
+              "count": 11,
+              "value": "DATA"
+            },
+            {
+              "count": 7,
+              "value": "Cybersecurity"
+            },
+            {
+              "count": 5,
+              "value": "hardware "
+            },
+            {
+              "count": 3,
+              "value": "Professional Services"
+            },
+            {
+              "count": 2,
+              "value": "Cloud Services"
+            }
+          ],
+          "unique_count": 11
+        },
+        "product_id": {
+          "duplicate_value_count": 3,
+          "max": "PRD0120",
+          "min": "PRD0001",
+          "null_count": 0,
+          "numeric_summary": null,
+          "top_values": [
+            {
+              "count": 2,
+              "value": "PRD0015"
+            },
+            {
+              "count": 2,
+              "value": "PRD0021"
+            },
+            {
+              "count": 2,
+              "value": "PRD0093"
+            },
+            {
+              "count": 1,
+              "value": "PRD0001"
+            },
+            {
+              "count": 1,
+              "value": "PRD0002"
+            },
+            {
+              "count": 1,
+              "value": "PRD0003"
+            },
+            {
+              "count": 1,
+              "value": "PRD0004"
+            },
+            {
+              "count": 1,
+              "value": "PRD0005"
+            },
+            {
+              "count": 1,
+              "value": "PRD0006"
+            },
+            {
+              "count": 1,
+              "value": "PRD0007"
+            }
+          ],
+          "unique_count": 120
+        },
+        "product_name": {
+          "duplicate_value_count": 3,
+          "max": "Synthetic Software Offering 118",
+          "min": "Synthetic Cloud Offering 004",
+          "null_count": 0,
+          "numeric_summary": null,
+          "top_values": [
+            {
+              "count": 2,
+              "value": "Synthetic Services Offering 021"
+            },
+            {
+              "count": 2,
+              "value": "Synthetic Software Offering 015"
+            },
+            {
+              "count": 2,
+              "value": "Synthetic Software Offering 093"
+            },
+            {
+              "count": 1,
+              "value": "Synthetic Cloud Offering 004"
+            },
+            {
+              "count": 1,
+              "value": "Synthetic Cloud Offering 006"
+            },
+            {
+              "count": 1,
+              "value": "Synthetic Cloud Offering 013"
+            },
+            {
+              "count": 1,
+              "value": "Synthetic Cloud Offering 014"
+            },
+            {
+              "count": 1,
+              "value": "Synthetic Cloud Offering 018"
+            },
+            {
+              "count": 1,
+              "value": "Synthetic Cloud Offering 020"
+            },
+            {
+              "count": 1,
+              "value": "Synthetic Cloud Offering 022"
+            }
+          ],
+          "unique_count": 120
+        },
+        "source_system": {
+          "duplicate_value_count": 122,
+          "max": "SYNTHETIC_PRODUCT_MASTER",
+          "min": "SYNTHETIC_PRODUCT_MASTER",
+          "null_count": 0,
+          "numeric_summary": null,
+          "top_values": [
+            {
+              "count": 123,
+              "value": "SYNTHETIC_PRODUCT_MASTER"
+            }
+          ],
+          "unique_count": 1
+        },
+        "unit_cost": {
+          "duplicate_value_count": 3,
+          "max": "952.55",
+          "min": "1006.13",
+          "null_count": 0,
+          "numeric_summary": {
+            "count": 123,
+            "max": 20174.34,
+            "mean": 1615.3198,
+            "min": 60.3,
+            "sum": 198684.33
+          },
+          "top_values": [
+            {
+              "count": 2,
+              "value": "1323.31"
+            },
+            {
+              "count": 2,
+              "value": "155.25"
+            },
+            {
+              "count": 2,
+              "value": "2822.82"
+            },
+            {
+              "count": 1,
+              "value": "1006.13"
+            },
+            {
+              "count": 1,
+              "value": "1011.37"
+            },
+            {
+              "count": 1,
+              "value": "1013.94"
+            },
+            {
+              "count": 1,
+              "value": "1037.67"
+            },
+            {
+              "count": 1,
+              "value": "1050.16"
+            },
+            {
+              "count": 1,
+              "value": "1053.31"
+            },
+            {
+              "count": 1,
+              "value": "107.28"
+            }
+          ],
+          "unique_count": 120
+        },
+        "unit_price": {
+          "duplicate_value_count": 3,
+          "max": "985.63",
+          "min": "1053.32",
+          "null_count": 0,
+          "numeric_summary": {
+            "count": 123,
+            "max": 42208.86,
+            "mean": 3301.5545,
+            "min": 155.25,
+            "sum": 406091.2
+          },
+          "top_values": [
+            {
+              "count": 2,
+              "value": "2088.19"
+            },
+            {
+              "count": 2,
+              "value": "392.88"
+            },
+            {
+              "count": 2,
+              "value": "4161.12"
+            },
+            {
+              "count": 1,
+              "value": "1053.32"
+            },
+            {
+              "count": 1,
+              "value": "1149.58"
+            },
+            {
+              "count": 1,
+              "value": "1195.68"
+            },
+            {
+              "count": 1,
+              "value": "1262.17"
+            },
+            {
+              "count": 1,
+              "value": "1265.14"
+            },
+            {
+              "count": 1,
+              "value": "1341.14"
+            },
+            {
+              "count": 1,
+              "value": "1345.71"
+            }
+          ],
+          "unique_count": 120
+        }
+      },
+      "duplicate_primary_key_count": 3,
+      "duplicate_row_count": 3,
+      "primary_key": "product_id",
+      "row_count": 123
+    },
+    "support_tickets": {
+      "column_count": 9,
+      "columns": {
+        "customer_id": {
+          "duplicate_value_count": 1463,
+          "max": "CUS_UNKNOWN_2419",
+          "min": "CUS000001",
+          "null_count": 0,
+          "numeric_summary": null,
+          "top_values": [
+            {
+              "count": 9,
+              "value": "CUS000135"
+            },
+            {
+              "count": 8,
+              "value": "CUS000062"
+            },
+            {
+              "count": 8,
+              "value": "CUS000253"
+            },
+            {
+              "count": 7,
+              "value": "CUS000933"
+            },
+            {
+              "count": 7,
+              "value": "CUS000968"
+            },
+            {
+              "count": 7,
+              "value": "CUS001022"
+            },
+            {
+              "count": 6,
+              "value": "CUS000211"
+            },
+            {
+              "count": 6,
+              "value": "CUS000252"
+            },
+            {
+              "count": 6,
+              "value": "CUS000444"
+            },
+            {
+              "count": 6,
+              "value": "CUS000454"
+            }
+          ],
+          "unique_count": 1043
+        },
+        "issue_category": {
+          "duplicate_value_count": 2489,
+          "max": "SERVICE",
+          "min": "ACCESS",
+          "null_count": 12,
+          "numeric_summary": null,
+          "top_values": [
+            {
+              "count": 515,
+              "value": "INTEGRATION"
+            },
+            {
+              "count": 507,
+              "value": "BILLING"
+            },
+            {
+              "count": 498,
+              "value": "SERVICE"
+            },
+            {
+              "count": 494,
+              "value": "ACCESS"
+            },
+            {
+              "count": 480,
+              "value": "PRODUCT"
+            }
+          ],
+          "unique_count": 5
+        },
+        "opened_at": {
+          "duplicate_value_count": 15,
+          "max": "not-a-date",
+          "min": "2025-01-01T04:25",
+          "null_count": 0,
+          "numeric_summary": null,
+          "top_values": [
+            {
+              "count": 6,
+              "value": "not-a-date"
+            },
+            {
+              "count": 2,
+              "value": "2025-01-24T18:46"
+            },
+            {
+              "count": 2,
+              "value": "2025-05-12T00:42"
+            },
+            {
+              "count": 2,
+              "value": "2025-07-24T02:57"
+            },
+            {
+              "count": 2,
+              "value": "2025-08-10T01:37"
+            },
+            {
+              "count": 2,
+              "value": "2025-08-13T18:38"
+            },
+            {
+              "count": 2,
+              "value": "2025-08-16T14:46"
+            },
+            {
+              "count": 2,
+              "value": "2025-09-08T23:34"
+            },
+            {
+              "count": 2,
+              "value": "2025-11-08T19:31"
+            },
+            {
+              "count": 2,
+              "value": "2025-11-25T04:52"
+            }
+          ],
+          "unique_count": 2491
+        },
+        "priority": {
+          "duplicate_value_count": 2499,
+          "max": "low ",
+          "min": "CRITICAL",
+          "null_count": 0,
+          "numeric_summary": null,
+          "top_values": [
+            {
+              "count": 1062,
+              "value": "MEDIUM"
+            },
+            {
+              "count": 699,
+              "value": "LOW"
+            },
+            {
+              "count": 561,
+              "value": "HIGH"
+            },
+            {
+              "count": 169,
+              "value": "CRITICAL"
+            },
+            {
+              "count": 7,
+              "value": "high-priority"
+            },
+            {
+              "count": 6,
+              "value": "Med"
+            },
+            {
+              "count": 2,
+              "value": "low "
+            }
+          ],
+          "unique_count": 7
+        },
+        "resolved_at": {
+          "duplicate_value_count": 9,
+          "max": "2026-01-06T04:02",
+          "min": "2025-01-01T18:00",
+          "null_count": 294,
+          "numeric_summary": null,
+          "top_values": [
+            {
+              "count": 2,
+              "value": "2025-03-09T17:51"
+            },
+            {
+              "count": 2,
+              "value": "2025-03-19T12:06"
+            },
+            {
+              "count": 2,
+              "value": "2025-03-29T01:35"
+            },
+            {
+              "count": 2,
+              "value": "2025-08-16T02:37"
+            },
+            {
+              "count": 2,
+              "value": "2025-08-16T02:38"
+            },
+            {
+              "count": 2,
+              "value": "2025-08-21T10:46"
+            },
+            {
+              "count": 2,
+              "value": "2025-09-13T12:34"
+            },
+            {
+              "count": 2,
+              "value": "2025-11-26T21:52"
+            },
+            {
+              "count": 2,
+              "value": "2026-01-01T19:27"
+            },
+            {
+              "count": 1,
+              "value": "2025-01-01T18:00"
+            }
+          ],
+          "unique_count": 2203
+        },
+        "satisfaction_score": {
+          "duplicate_value_count": 2207,
+          "max": "5",
+          "min": "1",
+          "null_count": 294,
+          "numeric_summary": {
+            "count": 2212,
+            "max": 5.0,
+            "mean": 3.0276,
+            "min": 1.0,
+            "sum": 6697.0
+          },
+          "top_values": [
+            {
+              "count": 480,
+              "value": "3"
+            },
+            {
+              "count": 458,
+              "value": "2"
+            },
+            {
+              "count": 439,
+              "value": "5"
+            },
+            {
+              "count": 437,
+              "value": "4"
+            },
+            {
+              "count": 398,
+              "value": "1"
+            }
+          ],
+          "unique_count": 5
+        },
+        "source_system": {
+          "duplicate_value_count": 2505,
+          "max": "SYNTHETIC_SUPPORT_DESK",
+          "min": "SYNTHETIC_SUPPORT_DESK",
+          "null_count": 0,
+          "numeric_summary": null,
+          "top_values": [
+            {
+              "count": 2506,
+              "value": "SYNTHETIC_SUPPORT_DESK"
+            }
+          ],
+          "unique_count": 1
+        },
+        "ticket_id": {
+          "duplicate_value_count": 6,
+          "max": "TKT0002500",
+          "min": "TKT0000001",
+          "null_count": 0,
+          "numeric_summary": null,
+          "top_values": [
+            {
+              "count": 2,
+              "value": "TKT0001179"
+            },
+            {
+              "count": 2,
+              "value": "TKT0001493"
+            },
+            {
+              "count": 2,
+              "value": "TKT0001653"
+            },
+            {
+              "count": 2,
+              "value": "TKT0001667"
+            },
+            {
+              "count": 2,
+              "value": "TKT0001941"
+            },
+            {
+              "count": 2,
+              "value": "TKT0001950"
+            },
+            {
+              "count": 1,
+              "value": "TKT0000001"
+            },
+            {
+              "count": 1,
+              "value": "TKT0000002"
+            },
+            {
+              "count": 1,
+              "value": "TKT0000003"
+            },
+            {
+              "count": 1,
+              "value": "TKT0000004"
+            }
+          ],
+          "unique_count": 2500
+        },
+        "ticket_status": {
+          "duplicate_value_count": 2503,
+          "max": "RESOLVED",
+          "min": "CLOSED",
+          "null_count": 0,
+          "numeric_summary": null,
+          "top_values": [
+            {
+              "count": 1117,
+              "value": "CLOSED"
+            },
+            {
+              "count": 1095,
+              "value": "RESOLVED"
+            },
+            {
+              "count": 294,
+              "value": "OPEN"
+            }
+          ],
+          "unique_count": 3
+        }
+      },
+      "duplicate_primary_key_count": 6,
+      "duplicate_row_count": 6,
+      "primary_key": "ticket_id",
+      "row_count": 2506
+    }
+  },
+  "profile_version": "1.0",
+  "scope": "raw synthetic source files before remediation",
+  "totals": {
+    "duplicate_rows": 28,
+    "null_cells": 622,
+    "rows_profiled": 19848
+  }
+}

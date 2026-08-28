@@ -1,0 +1,4706 @@
+{
+  "critical_errors": [],
+  "data_classification": "SYNTHETIC_PORTFOLIO_DATA",
+  "data_quality_score": 98.22,
+  "duplicate_counts": {
+    "customers": 5,
+    "finance_transactions": 6,
+    "orders": 8,
+    "products": 3,
+    "support_tickets": 6
+  },
+  "exceptions": [
+    {
+      "action": "DEDUPLICATE",
+      "dataset": "customers",
+      "issue_type": "DUPLICATE_BUSINESS_KEY",
+      "message": "Duplicate customer_id; keep first deterministic row",
+      "record_id": "CUS000115",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "DEDUPLICATE",
+      "dataset": "customers",
+      "issue_type": "DUPLICATE_BUSINESS_KEY",
+      "message": "Duplicate customer_id; keep first deterministic row",
+      "record_id": "CUS000486",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "DEDUPLICATE",
+      "dataset": "customers",
+      "issue_type": "DUPLICATE_BUSINESS_KEY",
+      "message": "Duplicate customer_id; keep first deterministic row",
+      "record_id": "CUS000815",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "DEDUPLICATE",
+      "dataset": "customers",
+      "issue_type": "DUPLICATE_BUSINESS_KEY",
+      "message": "Duplicate customer_id; keep first deterministic row",
+      "record_id": "CUS000860",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "DEDUPLICATE",
+      "dataset": "customers",
+      "issue_type": "DUPLICATE_BUSINESS_KEY",
+      "message": "Duplicate customer_id; keep first deterministic row",
+      "record_id": "CUS001151",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "DEDUPLICATE",
+      "dataset": "products",
+      "issue_type": "DUPLICATE_BUSINESS_KEY",
+      "message": "Duplicate product_id; keep first deterministic row",
+      "record_id": "PRD0015",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "DEDUPLICATE",
+      "dataset": "products",
+      "issue_type": "DUPLICATE_BUSINESS_KEY",
+      "message": "Duplicate product_id; keep first deterministic row",
+      "record_id": "PRD0021",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "DEDUPLICATE",
+      "dataset": "products",
+      "issue_type": "DUPLICATE_BUSINESS_KEY",
+      "message": "Duplicate product_id; keep first deterministic row",
+      "record_id": "PRD0093",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "DEDUPLICATE",
+      "dataset": "orders",
+      "issue_type": "DUPLICATE_BUSINESS_KEY",
+      "message": "Duplicate order_id; keep first deterministic row",
+      "record_id": "ORD0001825",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "DEDUPLICATE",
+      "dataset": "orders",
+      "issue_type": "DUPLICATE_BUSINESS_KEY",
+      "message": "Duplicate order_id; keep first deterministic row",
+      "record_id": "ORD0002040",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "DEDUPLICATE",
+      "dataset": "orders",
+      "issue_type": "DUPLICATE_BUSINESS_KEY",
+      "message": "Duplicate order_id; keep first deterministic row",
+      "record_id": "ORD0003133",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "DEDUPLICATE",
+      "dataset": "orders",
+      "issue_type": "DUPLICATE_BUSINESS_KEY",
+      "message": "Duplicate order_id; keep first deterministic row",
+      "record_id": "ORD0003387",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "DEDUPLICATE",
+      "dataset": "orders",
+      "issue_type": "DUPLICATE_BUSINESS_KEY",
+      "message": "Duplicate order_id; keep first deterministic row",
+      "record_id": "ORD0003802",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "DEDUPLICATE",
+      "dataset": "orders",
+      "issue_type": "DUPLICATE_BUSINESS_KEY",
+      "message": "Duplicate order_id; keep first deterministic row",
+      "record_id": "ORD0004378",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "DEDUPLICATE",
+      "dataset": "orders",
+      "issue_type": "DUPLICATE_BUSINESS_KEY",
+      "message": "Duplicate order_id; keep first deterministic row",
+      "record_id": "ORD0004843",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "DEDUPLICATE",
+      "dataset": "orders",
+      "issue_type": "DUPLICATE_BUSINESS_KEY",
+      "message": "Duplicate order_id; keep first deterministic row",
+      "record_id": "ORD0007002",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "DEDUPLICATE",
+      "dataset": "support_tickets",
+      "issue_type": "DUPLICATE_BUSINESS_KEY",
+      "message": "Duplicate ticket_id; keep first deterministic row",
+      "record_id": "TKT0001179",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "DEDUPLICATE",
+      "dataset": "support_tickets",
+      "issue_type": "DUPLICATE_BUSINESS_KEY",
+      "message": "Duplicate ticket_id; keep first deterministic row",
+      "record_id": "TKT0001493",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "DEDUPLICATE",
+      "dataset": "support_tickets",
+      "issue_type": "DUPLICATE_BUSINESS_KEY",
+      "message": "Duplicate ticket_id; keep first deterministic row",
+      "record_id": "TKT0001653",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "DEDUPLICATE",
+      "dataset": "support_tickets",
+      "issue_type": "DUPLICATE_BUSINESS_KEY",
+      "message": "Duplicate ticket_id; keep first deterministic row",
+      "record_id": "TKT0001667",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "DEDUPLICATE",
+      "dataset": "support_tickets",
+      "issue_type": "DUPLICATE_BUSINESS_KEY",
+      "message": "Duplicate ticket_id; keep first deterministic row",
+      "record_id": "TKT0001941",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "DEDUPLICATE",
+      "dataset": "support_tickets",
+      "issue_type": "DUPLICATE_BUSINESS_KEY",
+      "message": "Duplicate ticket_id; keep first deterministic row",
+      "record_id": "TKT0001950",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "DEDUPLICATE",
+      "dataset": "finance_transactions",
+      "issue_type": "DUPLICATE_BUSINESS_KEY",
+      "message": "Duplicate finance_transaction_id; keep first deterministic row",
+      "record_id": "FIN0000482",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "DEDUPLICATE",
+      "dataset": "finance_transactions",
+      "issue_type": "DUPLICATE_BUSINESS_KEY",
+      "message": "Duplicate finance_transaction_id; keep first deterministic row",
+      "record_id": "FIN0001360",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "DEDUPLICATE",
+      "dataset": "finance_transactions",
+      "issue_type": "DUPLICATE_BUSINESS_KEY",
+      "message": "Duplicate finance_transaction_id; keep first deterministic row",
+      "record_id": "FIN0003861",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "DEDUPLICATE",
+      "dataset": "finance_transactions",
+      "issue_type": "DUPLICATE_BUSINESS_KEY",
+      "message": "Duplicate finance_transaction_id; keep first deterministic row",
+      "record_id": "FIN0003932",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "DEDUPLICATE",
+      "dataset": "finance_transactions",
+      "issue_type": "DUPLICATE_BUSINESS_KEY",
+      "message": "Duplicate finance_transaction_id; keep first deterministic row",
+      "record_id": "FIN0004420",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "DEDUPLICATE",
+      "dataset": "finance_transactions",
+      "issue_type": "DUPLICATE_BUSINESS_KEY",
+      "message": "Duplicate finance_transaction_id; keep first deterministic row",
+      "record_id": "FIN0007764",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "customers",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Customer segment mapped to canonical value",
+      "record_id": "CUS000002",
+      "severity": "LOW"
+    },
+    {
+      "action": "DEFAULT_UNKNOWN",
+      "dataset": "customers",
+      "issue_type": "MISSING_REGION",
+      "message": "Missing region standardized to UNKNOWN",
+      "record_id": "CUS000021",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "customers",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Customer segment mapped to canonical value",
+      "record_id": "CUS000067",
+      "severity": "LOW"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "customers",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Customer segment mapped to canonical value",
+      "record_id": "CUS000085",
+      "severity": "LOW"
+    },
+    {
+      "action": "DEFAULT_UNKNOWN",
+      "dataset": "customers",
+      "issue_type": "MISSING_REGION",
+      "message": "Missing region standardized to UNKNOWN",
+      "record_id": "CUS000092",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "customers",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Customer segment mapped to canonical value",
+      "record_id": "CUS000094",
+      "severity": "LOW"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "customers",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Customer segment mapped to canonical value",
+      "record_id": "CUS000118",
+      "severity": "LOW"
+    },
+    {
+      "action": "DEFAULT_UNKNOWN",
+      "dataset": "customers",
+      "issue_type": "MISSING_REGION",
+      "message": "Missing region standardized to UNKNOWN",
+      "record_id": "CUS000267",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "customers",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Customer segment mapped to canonical value",
+      "record_id": "CUS000310",
+      "severity": "LOW"
+    },
+    {
+      "action": "DEFAULT_UNKNOWN",
+      "dataset": "customers",
+      "issue_type": "MISSING_REGION",
+      "message": "Missing region standardized to UNKNOWN",
+      "record_id": "CUS000345",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "customers",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Customer segment mapped to canonical value",
+      "record_id": "CUS000355",
+      "severity": "LOW"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "customers",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Customer segment mapped to canonical value",
+      "record_id": "CUS000377",
+      "severity": "LOW"
+    },
+    {
+      "action": "DEFAULT_UNKNOWN",
+      "dataset": "customers",
+      "issue_type": "MISSING_REGION",
+      "message": "Missing region standardized to UNKNOWN",
+      "record_id": "CUS000383",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "customers",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Customer segment mapped to canonical value",
+      "record_id": "CUS000388",
+      "severity": "LOW"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "customers",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Customer segment mapped to canonical value",
+      "record_id": "CUS000453",
+      "severity": "LOW"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "customers",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Customer segment mapped to canonical value",
+      "record_id": "CUS000493",
+      "severity": "LOW"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "customers",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Customer segment mapped to canonical value",
+      "record_id": "CUS000501",
+      "severity": "LOW"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "customers",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Customer segment mapped to canonical value",
+      "record_id": "CUS000531",
+      "severity": "LOW"
+    },
+    {
+      "action": "DEFAULT_UNKNOWN",
+      "dataset": "customers",
+      "issue_type": "MISSING_REGION",
+      "message": "Missing region standardized to UNKNOWN",
+      "record_id": "CUS000589",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "DEFAULT_UNKNOWN",
+      "dataset": "customers",
+      "issue_type": "MISSING_REGION",
+      "message": "Missing region standardized to UNKNOWN",
+      "record_id": "CUS000630",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "DEFAULT_UNKNOWN",
+      "dataset": "customers",
+      "issue_type": "MISSING_REGION",
+      "message": "Missing region standardized to UNKNOWN",
+      "record_id": "CUS000693",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "customers",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Customer segment mapped to canonical value",
+      "record_id": "CUS000779",
+      "severity": "LOW"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "customers",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Customer segment mapped to canonical value",
+      "record_id": "CUS000832",
+      "severity": "LOW"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "customers",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Customer segment mapped to canonical value",
+      "record_id": "CUS000833",
+      "severity": "LOW"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "customers",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Customer segment mapped to canonical value",
+      "record_id": "CUS000868",
+      "severity": "LOW"
+    },
+    {
+      "action": "DEFAULT_UNKNOWN",
+      "dataset": "customers",
+      "issue_type": "MISSING_REGION",
+      "message": "Missing region standardized to UNKNOWN",
+      "record_id": "CUS000874",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "DEFAULT_UNKNOWN",
+      "dataset": "customers",
+      "issue_type": "MISSING_REGION",
+      "message": "Missing region standardized to UNKNOWN",
+      "record_id": "CUS000906",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "DEFAULT_UNKNOWN",
+      "dataset": "customers",
+      "issue_type": "MISSING_REGION",
+      "message": "Missing region standardized to UNKNOWN",
+      "record_id": "CUS000911",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "customers",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Customer segment mapped to canonical value",
+      "record_id": "CUS000945",
+      "severity": "LOW"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "customers",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Customer segment mapped to canonical value",
+      "record_id": "CUS001040",
+      "severity": "LOW"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "customers",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Customer segment mapped to canonical value",
+      "record_id": "CUS001064",
+      "severity": "LOW"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "customers",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Customer segment mapped to canonical value",
+      "record_id": "CUS001077",
+      "severity": "LOW"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "customers",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Customer segment mapped to canonical value",
+      "record_id": "CUS001097",
+      "severity": "LOW"
+    },
+    {
+      "action": "DEFAULT_UNKNOWN",
+      "dataset": "customers",
+      "issue_type": "MISSING_REGION",
+      "message": "Missing region standardized to UNKNOWN",
+      "record_id": "CUS001132",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "customers",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Customer segment mapped to canonical value",
+      "record_id": "CUS001164",
+      "severity": "LOW"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "customers",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Customer segment mapped to canonical value",
+      "record_id": "CUS001175",
+      "severity": "LOW"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "products",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Product category mapped to canonical value",
+      "record_id": "PRD0004",
+      "severity": "LOW"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "products",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Unit price exceeds the profiling threshold",
+      "record_id": "PRD0008",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "products",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Unit price exceeds the profiling threshold",
+      "record_id": "PRD0026",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "products",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Product category mapped to canonical value",
+      "record_id": "PRD0028",
+      "severity": "LOW"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "products",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Product category mapped to canonical value",
+      "record_id": "PRD0029",
+      "severity": "LOW"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "products",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Unit price exceeds the profiling threshold",
+      "record_id": "PRD0040",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "products",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Product category mapped to canonical value",
+      "record_id": "PRD0045",
+      "severity": "LOW"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "products",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Product category mapped to canonical value",
+      "record_id": "PRD0052",
+      "severity": "LOW"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "products",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Product category mapped to canonical value",
+      "record_id": "PRD0057",
+      "severity": "LOW"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "products",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Product category mapped to canonical value",
+      "record_id": "PRD0065",
+      "severity": "LOW"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "products",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Product category mapped to canonical value",
+      "record_id": "PRD0066",
+      "severity": "LOW"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "products",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Product category mapped to canonical value",
+      "record_id": "PRD0067",
+      "severity": "LOW"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "products",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Product category mapped to canonical value",
+      "record_id": "PRD0068",
+      "severity": "LOW"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "products",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Product category mapped to canonical value",
+      "record_id": "PRD0075",
+      "severity": "LOW"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "products",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Unit price exceeds the profiling threshold",
+      "record_id": "PRD0082",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "products",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Product category mapped to canonical value",
+      "record_id": "PRD0087",
+      "severity": "LOW"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "products",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Product category mapped to canonical value",
+      "record_id": "PRD0088",
+      "severity": "LOW"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "products",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Product category mapped to canonical value",
+      "record_id": "PRD0095",
+      "severity": "LOW"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "products",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Product category mapped to canonical value",
+      "record_id": "PRD0096",
+      "severity": "LOW"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "products",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Product category mapped to canonical value",
+      "record_id": "PRD0101",
+      "severity": "LOW"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "products",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Product category mapped to canonical value",
+      "record_id": "PRD0106",
+      "severity": "LOW"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "products",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Product category mapped to canonical value",
+      "record_id": "PRD0107",
+      "severity": "LOW"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0000016",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "INVALID_CUSTOMER_REFERENCE",
+      "message": "Customer does not exist in CRM source",
+      "record_id": "ORD0000036",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0000049",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0000106",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0000221",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "orders",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Order status mapped to canonical value",
+      "record_id": "ORD0000269",
+      "severity": "LOW"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0000293",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0000353",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0000426",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0000456",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0000486",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "INVALID_QUANTITY",
+      "message": "quantity must be a positive integer",
+      "record_id": "ORD0000515",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0000547",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0000582",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "INVALID_PRODUCT_REFERENCE",
+      "message": "Product does not exist in product master",
+      "record_id": "ORD0000587",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0000666",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0000672",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0000697",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0000719",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0000761",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0000821",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0000866",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0000877",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0000884",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "orders",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Order status mapped to canonical value",
+      "record_id": "ORD0000943",
+      "severity": "LOW"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0000974",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0000975",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0000999",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "INVALID_ORDER_AMOUNT",
+      "message": "order amount must be nonnegative",
+      "record_id": "ORD0001012",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "INVALID_CUSTOMER_REFERENCE",
+      "message": "Customer does not exist in CRM source",
+      "record_id": "ORD0001038",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "INVALID_PRODUCT_REFERENCE",
+      "message": "Product does not exist in product master",
+      "record_id": "ORD0001085",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0001119",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0001220",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0001279",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "orders",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Order status mapped to canonical value",
+      "record_id": "ORD0001303",
+      "severity": "LOW"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0001325",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0001339",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "orders",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Order status mapped to canonical value",
+      "record_id": "ORD0001413",
+      "severity": "LOW"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0001435",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "orders",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Order status mapped to canonical value",
+      "record_id": "ORD0001447",
+      "severity": "LOW"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "orders",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Order status mapped to canonical value",
+      "record_id": "ORD0001452",
+      "severity": "LOW"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "INVALID_ORDER_AMOUNT",
+      "message": "order amount must be nonnegative",
+      "record_id": "ORD0001512",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "INVALID_CUSTOMER_REFERENCE",
+      "message": "Customer does not exist in CRM source",
+      "record_id": "ORD0001620",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0001671",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0001718",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0001724",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0001757",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "INVALID_PRODUCT_REFERENCE",
+      "message": "Product does not exist in product master",
+      "record_id": "ORD0001770",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0001789",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0001813",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "MALFORMED_DATE",
+      "message": "order_date must be ISO format",
+      "record_id": "ORD0001853",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0001862",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0001879",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0001888",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0001946",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0001955",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0001971",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0001981",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "orders",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Order status mapped to canonical value",
+      "record_id": "ORD0002065",
+      "severity": "LOW"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0002113",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "orders",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Order status mapped to canonical value",
+      "record_id": "ORD0002151",
+      "severity": "LOW"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0002167",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0002168",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "INVALID_CUSTOMER_REFERENCE",
+      "message": "Customer does not exist in CRM source",
+      "record_id": "ORD0002211",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0002218",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0002228",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0002230",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0002267",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0002306",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0002314",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "INVALID_CUSTOMER_REFERENCE",
+      "message": "Customer does not exist in CRM source",
+      "record_id": "ORD0002324",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0002337",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0002349",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0002375",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "MALFORMED_DATE",
+      "message": "order_date must be ISO format",
+      "record_id": "ORD0002385",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0002396",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0002411",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0002412",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0002426",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0002434",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "INVALID_CUSTOMER_REFERENCE",
+      "message": "Customer does not exist in CRM source",
+      "record_id": "ORD0002438",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0002440",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0002446",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "orders",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Order status mapped to canonical value",
+      "record_id": "ORD0002460",
+      "severity": "LOW"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0002508",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0002512",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0002529",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0002570",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0002579",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0002583",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "INVALID_PRODUCT_REFERENCE",
+      "message": "Product does not exist in product master",
+      "record_id": "ORD0002650",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0002777",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0002811",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0002816",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0002838",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0002847",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "MALFORMED_DATE",
+      "message": "order_date must be ISO format",
+      "record_id": "ORD0002857",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0002860",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "MISSING_REQUIRED_FIELD",
+      "message": "customer_id is required",
+      "record_id": "ORD0002883",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0002934",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "MISSING_REQUIRED_FIELD",
+      "message": "customer_id is required",
+      "record_id": "ORD0002989",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0003105",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "INVALID_CUSTOMER_REFERENCE",
+      "message": "Customer does not exist in CRM source",
+      "record_id": "ORD0003144",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0003171",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0003178",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0003218",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0003262",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0003326",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0003331",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0003395",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0003434",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "orders",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Order status mapped to canonical value",
+      "record_id": "ORD0003446",
+      "severity": "LOW"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "INVALID_PRODUCT_REFERENCE",
+      "message": "Product does not exist in product master",
+      "record_id": "ORD0003562",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "MISSING_REQUIRED_FIELD",
+      "message": "customer_id is required",
+      "record_id": "ORD0003580",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0003583",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0003626",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0003635",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "INVALID_QUANTITY",
+      "message": "quantity must be a positive integer",
+      "record_id": "ORD0003654",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0003728",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0003742",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0003759",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0003761",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0003766",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "orders",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Order status mapped to canonical value",
+      "record_id": "ORD0003798",
+      "severity": "LOW"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0003845",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "MALFORMED_DATE",
+      "message": "order_date must be ISO format",
+      "record_id": "ORD0003862",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0003873",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "INVALID_PRODUCT_REFERENCE",
+      "message": "Product does not exist in product master",
+      "record_id": "ORD0003921",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0003942",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0003965",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "MISSING_REQUIRED_FIELD",
+      "message": "customer_id is required",
+      "record_id": "ORD0003980",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0004001",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0004012",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0004029",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0004058",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "INVALID_PRODUCT_REFERENCE",
+      "message": "Product does not exist in product master",
+      "record_id": "ORD0004060",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0004063",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0004064",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0004074",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "orders",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Order status mapped to canonical value",
+      "record_id": "ORD0004074",
+      "severity": "LOW"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0004099",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "INVALID_QUANTITY",
+      "message": "quantity must be a positive integer",
+      "record_id": "ORD0004122",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0004142",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0004158",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "INVALID_QUANTITY",
+      "message": "quantity must be a positive integer",
+      "record_id": "ORD0004181",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0004231",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0004237",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0004239",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0004264",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0004268",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0004321",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0004371",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0004422",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0004441",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0004457",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "orders",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Order status mapped to canonical value",
+      "record_id": "ORD0004526",
+      "severity": "LOW"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0004532",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0004545",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0004563",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "MISSING_REQUIRED_FIELD",
+      "message": "customer_id is required",
+      "record_id": "ORD0004593",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0004612",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "INVALID_ORDER_AMOUNT",
+      "message": "order amount must be nonnegative",
+      "record_id": "ORD0004626",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0004648",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0004663",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0004688",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0004702",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "MALFORMED_DATE",
+      "message": "order_date must be ISO format",
+      "record_id": "ORD0004711",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0004778",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "INVALID_PRODUCT_REFERENCE",
+      "message": "Product does not exist in product master",
+      "record_id": "ORD0004834",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0004845",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0004850",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0004881",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0004887",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "INVALID_ORDER_AMOUNT",
+      "message": "order amount must be nonnegative",
+      "record_id": "ORD0004903",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0004904",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0004910",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0004931",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0004934",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0004951",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0004991",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0005013",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0005030",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0005033",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "orders",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Order status mapped to canonical value",
+      "record_id": "ORD0005034",
+      "severity": "LOW"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "INVALID_QUANTITY",
+      "message": "quantity must be a positive integer",
+      "record_id": "ORD0005040",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0005072",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0005133",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0005152",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0005214",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "INVALID_CUSTOMER_REFERENCE",
+      "message": "Customer does not exist in CRM source",
+      "record_id": "ORD0005310",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0005337",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0005350",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0005377",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "orders",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Order status mapped to canonical value",
+      "record_id": "ORD0005388",
+      "severity": "LOW"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "INVALID_CUSTOMER_REFERENCE",
+      "message": "Customer does not exist in CRM source",
+      "record_id": "ORD0005393",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0005395",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0005411",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0005432",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0005467",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0005474",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0005490",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "MISSING_REQUIRED_FIELD",
+      "message": "customer_id is required",
+      "record_id": "ORD0005498",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "INVALID_QUANTITY",
+      "message": "quantity must be a positive integer",
+      "record_id": "ORD0005509",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0005512",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0005572",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0005622",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0005653",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0005729",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "INVALID_PRODUCT_REFERENCE",
+      "message": "Product does not exist in product master",
+      "record_id": "ORD0005756",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0005773",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0005778",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0005854",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0005855",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0005879",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0005894",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "MALFORMED_DATE",
+      "message": "order_date must be ISO format",
+      "record_id": "ORD0005914",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0005938",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0005978",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0005992",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "MISSING_REQUIRED_FIELD",
+      "message": "customer_id is required",
+      "record_id": "ORD0006045",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "INVALID_CUSTOMER_REFERENCE",
+      "message": "Customer does not exist in CRM source",
+      "record_id": "ORD0006059",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0006065",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "orders",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Order status mapped to canonical value",
+      "record_id": "ORD0006077",
+      "severity": "LOW"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "INVALID_ORDER_AMOUNT",
+      "message": "order amount must be nonnegative",
+      "record_id": "ORD0006097",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "INVALID_QUANTITY",
+      "message": "quantity must be a positive integer",
+      "record_id": "ORD0006125",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0006147",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "MISSING_REQUIRED_FIELD",
+      "message": "customer_id is required",
+      "record_id": "ORD0006148",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0006159",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0006170",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0006182",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0006190",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0006255",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "MALFORMED_DATE",
+      "message": "order_date must be ISO format",
+      "record_id": "ORD0006266",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "INVALID_CUSTOMER_REFERENCE",
+      "message": "Customer does not exist in CRM source",
+      "record_id": "ORD0006297",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0006315",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0006321",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0006361",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0006382",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0006390",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "orders",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Order status mapped to canonical value",
+      "record_id": "ORD0006455",
+      "severity": "LOW"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0006483",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0006516",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0006527",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0006541",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0006583",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0006656",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "MALFORMED_DATE",
+      "message": "order_date must be ISO format",
+      "record_id": "ORD0006731",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0006736",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0006824",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "INVALID_PRODUCT_REFERENCE",
+      "message": "Product does not exist in product master",
+      "record_id": "ORD0006830",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0006925",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "MISSING_REQUIRED_FIELD",
+      "message": "customer_id is required",
+      "record_id": "ORD0007035",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0007062",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0007104",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0007154",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0007163",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "orders",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Order status mapped to canonical value",
+      "record_id": "ORD0007172",
+      "severity": "LOW"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0007198",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0007253",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "orders",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Order status mapped to canonical value",
+      "record_id": "ORD0007254",
+      "severity": "LOW"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "INVALID_ORDER_AMOUNT",
+      "message": "order amount must be nonnegative",
+      "record_id": "ORD0007256",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0007268",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "INVALID_ORDER_AMOUNT",
+      "message": "order amount must be nonnegative",
+      "record_id": "ORD0007316",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0007330",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "MISSING_REQUIRED_FIELD",
+      "message": "customer_id is required",
+      "record_id": "ORD0007335",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0007355",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0007412",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0007413",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0007419",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "INVALID_CUSTOMER_REFERENCE",
+      "message": "Customer does not exist in CRM source",
+      "record_id": "ORD0007435",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0007438",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "INVALID_CUSTOMER_REFERENCE",
+      "message": "Customer does not exist in CRM source",
+      "record_id": "ORD0007457",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0007462",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0007489",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0007504",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0007530",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0007567",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0007573",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "INVALID_CUSTOMER_REFERENCE",
+      "message": "Customer does not exist in CRM source",
+      "record_id": "ORD0007613",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0007623",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0007633",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0007663",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0007705",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0007741",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0007749",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "INVALID_QUANTITY",
+      "message": "quantity must be a positive integer",
+      "record_id": "ORD0007758",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0007773",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0007803",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0007811",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "MALFORMED_DATE",
+      "message": "order_date must be ISO format",
+      "record_id": "ORD0007894",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "INVALID_PRODUCT_REFERENCE",
+      "message": "Product does not exist in product master",
+      "record_id": "ORD0007908",
+      "severity": "HIGH"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "orders",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Order status mapped to canonical value",
+      "record_id": "ORD0007945",
+      "severity": "LOW"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0007958",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "orders",
+      "issue_type": "UNUSUAL_NUMERIC_VALUE",
+      "message": "Order amount exceeds the high-value review threshold",
+      "record_id": "ORD0007972",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "orders",
+      "issue_type": "INVALID_PRODUCT_REFERENCE",
+      "message": "Product does not exist in product master",
+      "record_id": "ORD0007989",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "support_tickets",
+      "issue_type": "INVALID_CUSTOMER_REFERENCE",
+      "message": "Ticket customer does not exist",
+      "record_id": "TKT0000032",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "support_tickets",
+      "issue_type": "INVALID_DATE_SEQUENCE",
+      "message": "Resolution precedes ticket creation",
+      "record_id": "TKT0000040",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "support_tickets",
+      "issue_type": "MISSING_REQUIRED_FIELD",
+      "message": "issue_category is required",
+      "record_id": "TKT0000137",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "support_tickets",
+      "issue_type": "MISSING_REQUIRED_FIELD",
+      "message": "issue_category is required",
+      "record_id": "TKT0000175",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "support_tickets",
+      "issue_type": "MISSING_REQUIRED_FIELD",
+      "message": "issue_category is required",
+      "record_id": "TKT0000194",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "support_tickets",
+      "issue_type": "MISSING_REQUIRED_FIELD",
+      "message": "issue_category is required",
+      "record_id": "TKT0000209",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "support_tickets",
+      "issue_type": "MALFORMED_DATE",
+      "message": "Ticket timestamps must be ISO format",
+      "record_id": "TKT0000211",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "support_tickets",
+      "issue_type": "INVALID_CUSTOMER_REFERENCE",
+      "message": "Ticket customer does not exist",
+      "record_id": "TKT0000316",
+      "severity": "HIGH"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "support_tickets",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Priority mapped to canonical value",
+      "record_id": "TKT0000359",
+      "severity": "LOW"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "support_tickets",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Priority mapped to canonical value",
+      "record_id": "TKT0000362",
+      "severity": "LOW"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "support_tickets",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Priority mapped to canonical value",
+      "record_id": "TKT0000378",
+      "severity": "LOW"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "support_tickets",
+      "issue_type": "MISSING_REQUIRED_FIELD",
+      "message": "issue_category is required",
+      "record_id": "TKT0000493",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "support_tickets",
+      "issue_type": "INVALID_DATE_SEQUENCE",
+      "message": "Resolution precedes ticket creation",
+      "record_id": "TKT0000496",
+      "severity": "HIGH"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "support_tickets",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Priority mapped to canonical value",
+      "record_id": "TKT0000516",
+      "severity": "LOW"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "support_tickets",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Priority mapped to canonical value",
+      "record_id": "TKT0000522",
+      "severity": "LOW"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "support_tickets",
+      "issue_type": "MALFORMED_DATE",
+      "message": "Ticket timestamps must be ISO format",
+      "record_id": "TKT0000548",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "support_tickets",
+      "issue_type": "MALFORMED_DATE",
+      "message": "Ticket timestamps must be ISO format",
+      "record_id": "TKT0000656",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "support_tickets",
+      "issue_type": "INVALID_DATE_SEQUENCE",
+      "message": "Resolution precedes ticket creation",
+      "record_id": "TKT0000664",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "support_tickets",
+      "issue_type": "INVALID_CUSTOMER_REFERENCE",
+      "message": "Ticket customer does not exist",
+      "record_id": "TKT0000817",
+      "severity": "HIGH"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "support_tickets",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Priority mapped to canonical value",
+      "record_id": "TKT0000874",
+      "severity": "LOW"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "support_tickets",
+      "issue_type": "INVALID_DATE_SEQUENCE",
+      "message": "Resolution precedes ticket creation",
+      "record_id": "TKT0000925",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "support_tickets",
+      "issue_type": "INVALID_CUSTOMER_REFERENCE",
+      "message": "Ticket customer does not exist",
+      "record_id": "TKT0000996",
+      "severity": "HIGH"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "support_tickets",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Priority mapped to canonical value",
+      "record_id": "TKT0001031",
+      "severity": "LOW"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "support_tickets",
+      "issue_type": "MISSING_REQUIRED_FIELD",
+      "message": "issue_category is required",
+      "record_id": "TKT0001089",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "support_tickets",
+      "issue_type": "MALFORMED_DATE",
+      "message": "Ticket timestamps must be ISO format",
+      "record_id": "TKT0001161",
+      "severity": "HIGH"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "support_tickets",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Priority mapped to canonical value",
+      "record_id": "TKT0001200",
+      "severity": "LOW"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "support_tickets",
+      "issue_type": "INVALID_CUSTOMER_REFERENCE",
+      "message": "Ticket customer does not exist",
+      "record_id": "TKT0001205",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "support_tickets",
+      "issue_type": "MISSING_REQUIRED_FIELD",
+      "message": "issue_category is required",
+      "record_id": "TKT0001226",
+      "severity": "HIGH"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "support_tickets",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Priority mapped to canonical value",
+      "record_id": "TKT0001260",
+      "severity": "LOW"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "support_tickets",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Priority mapped to canonical value",
+      "record_id": "TKT0001312",
+      "severity": "LOW"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "support_tickets",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Priority mapped to canonical value",
+      "record_id": "TKT0001323",
+      "severity": "LOW"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "support_tickets",
+      "issue_type": "INVALID_CUSTOMER_REFERENCE",
+      "message": "Ticket customer does not exist",
+      "record_id": "TKT0001348",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "support_tickets",
+      "issue_type": "MISSING_REQUIRED_FIELD",
+      "message": "issue_category is required",
+      "record_id": "TKT0001406",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "support_tickets",
+      "issue_type": "MALFORMED_DATE",
+      "message": "Ticket timestamps must be ISO format",
+      "record_id": "TKT0001420",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "support_tickets",
+      "issue_type": "INVALID_DATE_SEQUENCE",
+      "message": "Resolution precedes ticket creation",
+      "record_id": "TKT0001486",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "support_tickets",
+      "issue_type": "MISSING_REQUIRED_FIELD",
+      "message": "issue_category is required",
+      "record_id": "TKT0001489",
+      "severity": "HIGH"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "support_tickets",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Priority mapped to canonical value",
+      "record_id": "TKT0001688",
+      "severity": "LOW"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "support_tickets",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Priority mapped to canonical value",
+      "record_id": "TKT0001887",
+      "severity": "LOW"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "support_tickets",
+      "issue_type": "MISSING_REQUIRED_FIELD",
+      "message": "issue_category is required",
+      "record_id": "TKT0002014",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "support_tickets",
+      "issue_type": "MISSING_REQUIRED_FIELD",
+      "message": "issue_category is required",
+      "record_id": "TKT0002025",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "support_tickets",
+      "issue_type": "INVALID_CUSTOMER_REFERENCE",
+      "message": "Ticket customer does not exist",
+      "record_id": "TKT0002068",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "support_tickets",
+      "issue_type": "INVALID_CUSTOMER_REFERENCE",
+      "message": "Ticket customer does not exist",
+      "record_id": "TKT0002093",
+      "severity": "HIGH"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "support_tickets",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Priority mapped to canonical value",
+      "record_id": "TKT0002161",
+      "severity": "LOW"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "support_tickets",
+      "issue_type": "INVALID_DATE_SEQUENCE",
+      "message": "Resolution precedes ticket creation",
+      "record_id": "TKT0002163",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "support_tickets",
+      "issue_type": "MALFORMED_DATE",
+      "message": "Ticket timestamps must be ISO format",
+      "record_id": "TKT0002212",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "support_tickets",
+      "issue_type": "INVALID_CUSTOMER_REFERENCE",
+      "message": "Ticket customer does not exist",
+      "record_id": "TKT0002218",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "support_tickets",
+      "issue_type": "MISSING_REQUIRED_FIELD",
+      "message": "issue_category is required",
+      "record_id": "TKT0002328",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "support_tickets",
+      "issue_type": "INVALID_DATE_SEQUENCE",
+      "message": "Resolution precedes ticket creation",
+      "record_id": "TKT0002348",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "support_tickets",
+      "issue_type": "INVALID_CUSTOMER_REFERENCE",
+      "message": "Ticket customer does not exist",
+      "record_id": "TKT0002419",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "support_tickets",
+      "issue_type": "INVALID_DATE_SEQUENCE",
+      "message": "Resolution precedes ticket creation",
+      "record_id": "TKT0002426",
+      "severity": "HIGH"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "support_tickets",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Priority mapped to canonical value",
+      "record_id": "TKT0002494",
+      "severity": "LOW"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "INVALID_ORDER_REFERENCE",
+      "message": "Finance order does not exist in order source",
+      "record_id": "FIN0000062",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "INVALID_ORDER_REFERENCE",
+      "message": "Finance order does not exist in order source",
+      "record_id": "FIN0000609",
+      "severity": "HIGH"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "finance_transactions",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Finance type mapped to canonical value",
+      "record_id": "FIN0000678",
+      "severity": "LOW"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "finance_transactions",
+      "issue_type": "FINANCE_ORDER_AMOUNT_MISMATCH",
+      "message": "Ledger amount differs from the status-based order expectation",
+      "record_id": "FIN0000760",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "finance_transactions",
+      "issue_type": "FINANCE_ORDER_AMOUNT_MISMATCH",
+      "message": "Ledger amount differs from the status-based order expectation",
+      "record_id": "FIN0000768",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "finance_transactions",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Finance type mapped to canonical value",
+      "record_id": "FIN0000847",
+      "severity": "LOW"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "INVALID_ORDER_REFERENCE",
+      "message": "Finance order does not exist in order source",
+      "record_id": "FIN0000895",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "MALFORMED_DATE",
+      "message": "posted_date must be ISO format",
+      "record_id": "FIN0000899",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "INVALID_ORDER_REFERENCE",
+      "message": "Finance order does not exist in order source",
+      "record_id": "FIN0001039",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "finance_transactions",
+      "issue_type": "FINANCE_ORDER_AMOUNT_MISMATCH",
+      "message": "Ledger amount differs from the status-based order expectation",
+      "record_id": "FIN0001078",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "MALFORMED_DATE",
+      "message": "posted_date must be ISO format",
+      "record_id": "FIN0001163",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "finance_transactions",
+      "issue_type": "FINANCE_ORDER_AMOUNT_MISMATCH",
+      "message": "Ledger amount differs from the status-based order expectation",
+      "record_id": "FIN0001171",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "MALFORMED_DATE",
+      "message": "posted_date must be ISO format",
+      "record_id": "FIN0001186",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "INVALID_ORDER_REFERENCE",
+      "message": "Finance order does not exist in order source",
+      "record_id": "FIN0001190",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "INVALID_ORDER_REFERENCE",
+      "message": "Finance order does not exist in order source",
+      "record_id": "FIN0001676",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "finance_transactions",
+      "issue_type": "FINANCE_ORDER_AMOUNT_MISMATCH",
+      "message": "Ledger amount differs from the status-based order expectation",
+      "record_id": "FIN0002540",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "INVALID_ORDER_REFERENCE",
+      "message": "Finance order does not exist in order source",
+      "record_id": "FIN0002890",
+      "severity": "HIGH"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "finance_transactions",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Finance type mapped to canonical value",
+      "record_id": "FIN0002938",
+      "severity": "LOW"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "finance_transactions",
+      "issue_type": "FINANCE_ORDER_AMOUNT_MISMATCH",
+      "message": "Ledger amount differs from the status-based order expectation",
+      "record_id": "FIN0003116",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "finance_transactions",
+      "issue_type": "FINANCE_ORDER_AMOUNT_MISMATCH",
+      "message": "Ledger amount differs from the status-based order expectation",
+      "record_id": "FIN0003616",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "finance_transactions",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Finance type mapped to canonical value",
+      "record_id": "FIN0003670",
+      "severity": "LOW"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "finance_transactions",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Finance type mapped to canonical value",
+      "record_id": "FIN0003708",
+      "severity": "LOW"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "finance_transactions",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Finance type mapped to canonical value",
+      "record_id": "FIN0003901",
+      "severity": "LOW"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "finance_transactions",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Finance type mapped to canonical value",
+      "record_id": "FIN0004122",
+      "severity": "LOW"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "finance_transactions",
+      "issue_type": "FINANCE_ORDER_AMOUNT_MISMATCH",
+      "message": "Ledger amount differs from the status-based order expectation",
+      "record_id": "FIN0004252",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "finance_transactions",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Finance type mapped to canonical value",
+      "record_id": "FIN0004509",
+      "severity": "LOW"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "finance_transactions",
+      "issue_type": "FINANCE_ORDER_AMOUNT_MISMATCH",
+      "message": "Ledger amount differs from the status-based order expectation",
+      "record_id": "FIN0004562",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "MALFORMED_DATE",
+      "message": "posted_date must be ISO format",
+      "record_id": "FIN0005116",
+      "severity": "HIGH"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "finance_transactions",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Finance type mapped to canonical value",
+      "record_id": "FIN0005283",
+      "severity": "LOW"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "finance_transactions",
+      "issue_type": "FINANCE_ORDER_AMOUNT_MISMATCH",
+      "message": "Ledger amount differs from the status-based order expectation",
+      "record_id": "FIN0005312",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "finance_transactions",
+      "issue_type": "FINANCE_ORDER_AMOUNT_MISMATCH",
+      "message": "Ledger amount differs from the status-based order expectation",
+      "record_id": "FIN0005458",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "INVALID_ORDER_REFERENCE",
+      "message": "Finance order does not exist in order source",
+      "record_id": "FIN0005464",
+      "severity": "HIGH"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "finance_transactions",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Finance type mapped to canonical value",
+      "record_id": "FIN0005499",
+      "severity": "LOW"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "finance_transactions",
+      "issue_type": "FINANCE_ORDER_AMOUNT_MISMATCH",
+      "message": "Ledger amount differs from the status-based order expectation",
+      "record_id": "FIN0005534",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "INVALID_ORDER_REFERENCE",
+      "message": "Finance order does not exist in order source",
+      "record_id": "FIN0005603",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "finance_transactions",
+      "issue_type": "FINANCE_ORDER_AMOUNT_MISMATCH",
+      "message": "Ledger amount differs from the status-based order expectation",
+      "record_id": "FIN0005872",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "finance_transactions",
+      "issue_type": "FINANCE_ORDER_AMOUNT_MISMATCH",
+      "message": "Ledger amount differs from the status-based order expectation",
+      "record_id": "FIN0005938",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "finance_transactions",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Finance type mapped to canonical value",
+      "record_id": "FIN0005951",
+      "severity": "LOW"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "finance_transactions",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Finance type mapped to canonical value",
+      "record_id": "FIN0006243",
+      "severity": "LOW"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "finance_transactions",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Finance type mapped to canonical value",
+      "record_id": "FIN0006491",
+      "severity": "LOW"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "finance_transactions",
+      "issue_type": "FINANCE_ORDER_AMOUNT_MISMATCH",
+      "message": "Ledger amount differs from the status-based order expectation",
+      "record_id": "FIN0006775",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "INVALID_ORDER_REFERENCE",
+      "message": "Finance order does not exist in order source",
+      "record_id": "FIN0006942",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "finance_transactions",
+      "issue_type": "FINANCE_ORDER_AMOUNT_MISMATCH",
+      "message": "Ledger amount differs from the status-based order expectation",
+      "record_id": "FIN0007046",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "finance_transactions",
+      "issue_type": "FINANCE_ORDER_AMOUNT_MISMATCH",
+      "message": "Ledger amount differs from the status-based order expectation",
+      "record_id": "FIN0007181",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "finance_transactions",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Finance type mapped to canonical value",
+      "record_id": "FIN0007187",
+      "severity": "LOW"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "MALFORMED_DATE",
+      "message": "posted_date must be ISO format",
+      "record_id": "FIN0007271",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "INVALID_ORDER_REFERENCE",
+      "message": "Finance order does not exist in order source",
+      "record_id": "FIN0007521",
+      "severity": "HIGH"
+    },
+    {
+      "action": "STANDARDIZE",
+      "dataset": "finance_transactions",
+      "issue_type": "CATEGORY_STANDARDIZED",
+      "message": "Finance type mapped to canonical value",
+      "record_id": "FIN0007596",
+      "severity": "LOW"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "MALFORMED_DATE",
+      "message": "posted_date must be ISO format",
+      "record_id": "FIN0007694",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "MALFORMED_DATE",
+      "message": "posted_date must be ISO format",
+      "record_id": "FIN0007705",
+      "severity": "HIGH"
+    },
+    {
+      "action": "REVIEW",
+      "dataset": "finance_transactions",
+      "issue_type": "FINANCE_ORDER_AMOUNT_MISMATCH",
+      "message": "Ledger amount differs from the status-based order expectation",
+      "record_id": "FIN0007915",
+      "severity": "MEDIUM"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0000036",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0000515",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0000587",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0001012",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0001038",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0001085",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0001512",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0001620",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0001770",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0001853",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0002211",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0002324",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0002385",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0002438",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0002650",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0002857",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0002883",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0002989",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0003144",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0003562",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0003580",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0003654",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0003862",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0003921",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0003980",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0004060",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0004122",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0004181",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0004593",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0004626",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0004711",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0004834",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0004903",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0005040",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0005310",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0005393",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0005498",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0005509",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0005756",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0005914",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0006045",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0006059",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0006097",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0006125",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0006148",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0006266",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0006297",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0006731",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0006830",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0007035",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0007256",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0007316",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0007335",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0007435",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0007457",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0007613",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0007758",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0007894",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0007908",
+      "severity": "HIGH"
+    },
+    {
+      "action": "QUARANTINE",
+      "dataset": "finance_transactions",
+      "issue_type": "ORDER_NOT_LOADED",
+      "message": "Referenced order was quarantined and is unavailable to the warehouse fact",
+      "record_id": "FIN0007989",
+      "severity": "HIGH"
+    }
+  ],
+  "issue_counts": {
+    "CATEGORY_STANDARDIZED": 92,
+    "DUPLICATE_BUSINESS_KEY": 28,
+    "FINANCE_ORDER_AMOUNT_MISMATCH": 18,
+    "INVALID_CUSTOMER_REFERENCE": 24,
+    "INVALID_DATE_SEQUENCE": 8,
+    "INVALID_ORDER_AMOUNT": 7,
+    "INVALID_ORDER_REFERENCE": 11,
+    "INVALID_PRODUCT_REFERENCE": 12,
+    "INVALID_QUANTITY": 8,
+    "MALFORMED_DATE": 22,
+    "MISSING_REGION": 12,
+    "MISSING_REQUIRED_FIELD": 22,
+    "ORDER_NOT_LOADED": 60,
+    "UNUSUAL_NUMERIC_VALUE": 219
+  },
+  "loaded_counts": {
+    "customers": 1200,
+    "finance_transactions": 7922,
+    "orders": 7940,
+    "products": 120,
+    "support_tickets": 2464
+  },
+  "quarantine_counts": {
+    "finance_transactions": 78,
+    "orders": 60,
+    "support_tickets": 36
+  },
+  "reconciliation_controls": [
+    {
+      "control_name": "orders_count",
+      "dataset": "orders",
+      "difference": 0,
+      "source_value": 8000,
+      "status": "PASS",
+      "target_value": 8000,
+      "unit": "COUNT"
+    },
+    {
+      "control_name": "orders_amount_cents",
+      "dataset": "orders",
+      "difference": 0,
+      "source_value": 15718906234,
+      "status": "PASS",
+      "target_value": 15718906234,
+      "unit": "CENTS"
+    },
+    {
+      "control_name": "support_tickets_count",
+      "dataset": "support_tickets",
+      "difference": 0,
+      "source_value": 2500,
+      "status": "PASS",
+      "target_value": 2500,
+      "unit": "COUNT"
+    },
+    {
+      "control_name": "finance_transactions_count",
+      "dataset": "finance_transactions",
+      "difference": 0,
+      "source_value": 8000,
+      "status": "PASS",
+      "target_value": 8000,
+      "unit": "COUNT"
+    },
+    {
+      "control_name": "finance_transactions_amount_cents",
+      "dataset": "finance_transactions",
+      "difference": 0,
+      "source_value": 12460746367,
+      "status": "PASS",
+      "target_value": 12460746367,
+      "unit": "CENTS"
+    }
+  ],
+  "source_counts": {
+    "customers": 1205,
+    "finance_transactions": 8006,
+    "orders": 8008,
+    "products": 123,
+    "support_tickets": 2506
+  },
+  "status": "PASS",
+  "unique_counts": {
+    "customers": 1200,
+    "finance_transactions": 8000,
+    "orders": 8000,
+    "products": 120,
+    "support_tickets": 2500
+  },
+  "validation_controls": [
+    {
+      "action": "STANDARDIZE",
+      "control": "CATEGORY_STANDARDIZED",
+      "dataset": "customers",
+      "issue_count": 24,
+      "severity": "LOW",
+      "status": "WARNING"
+    },
+    {
+      "action": "DEDUPLICATE",
+      "control": "DUPLICATE_BUSINESS_KEY",
+      "dataset": "customers",
+      "issue_count": 5,
+      "severity": "MEDIUM",
+      "status": "WARNING"
+    },
+    {
+      "action": "DEFAULT_UNKNOWN",
+      "control": "MISSING_REGION",
+      "dataset": "customers",
+      "issue_count": 12,
+      "severity": "MEDIUM",
+      "status": "WARNING"
+    },
+    {
+      "action": "STANDARDIZE",
+      "control": "CATEGORY_STANDARDIZED",
+      "dataset": "finance_transactions",
+      "issue_count": 15,
+      "severity": "LOW",
+      "status": "WARNING"
+    },
+    {
+      "action": "DEDUPLICATE",
+      "control": "DUPLICATE_BUSINESS_KEY",
+      "dataset": "finance_transactions",
+      "issue_count": 6,
+      "severity": "MEDIUM",
+      "status": "WARNING"
+    },
+    {
+      "action": "REVIEW",
+      "control": "FINANCE_ORDER_AMOUNT_MISMATCH",
+      "dataset": "finance_transactions",
+      "issue_count": 18,
+      "severity": "MEDIUM",
+      "status": "WARNING"
+    },
+    {
+      "action": "QUARANTINE",
+      "control": "INVALID_ORDER_REFERENCE",
+      "dataset": "finance_transactions",
+      "issue_count": 11,
+      "severity": "HIGH",
+      "status": "WARNING"
+    },
+    {
+      "action": "QUARANTINE",
+      "control": "MALFORMED_DATE",
+      "dataset": "finance_transactions",
+      "issue_count": 7,
+      "severity": "HIGH",
+      "status": "WARNING"
+    },
+    {
+      "action": "STANDARDIZE",
+      "control": "CATEGORY_STANDARDIZED",
+      "dataset": "orders",
+      "issue_count": 20,
+      "severity": "LOW",
+      "status": "WARNING"
+    },
+    {
+      "action": "DEDUPLICATE",
+      "control": "DUPLICATE_BUSINESS_KEY",
+      "dataset": "orders",
+      "issue_count": 8,
+      "severity": "MEDIUM",
+      "status": "WARNING"
+    },
+    {
+      "action": "QUARANTINE",
+      "control": "INVALID_CUSTOMER_REFERENCE",
+      "dataset": "orders",
+      "issue_count": 14,
+      "severity": "HIGH",
+      "status": "WARNING"
+    },
+    {
+      "action": "QUARANTINE",
+      "control": "INVALID_ORDER_AMOUNT",
+      "dataset": "orders",
+      "issue_count": 7,
+      "severity": "HIGH",
+      "status": "WARNING"
+    },
+    {
+      "action": "QUARANTINE",
+      "control": "INVALID_PRODUCT_REFERENCE",
+      "dataset": "orders",
+      "issue_count": 12,
+      "severity": "HIGH",
+      "status": "WARNING"
+    },
+    {
+      "action": "QUARANTINE",
+      "control": "INVALID_QUANTITY",
+      "dataset": "orders",
+      "issue_count": 8,
+      "severity": "HIGH",
+      "status": "WARNING"
+    },
+    {
+      "action": "QUARANTINE",
+      "control": "MALFORMED_DATE",
+      "dataset": "orders",
+      "issue_count": 9,
+      "severity": "HIGH",
+      "status": "WARNING"
+    },
+    {
+      "action": "QUARANTINE",
+      "control": "MISSING_REQUIRED_FIELD",
+      "dataset": "orders",
+      "issue_count": 10,
+      "severity": "HIGH",
+      "status": "WARNING"
+    },
+    {
+      "action": "REVIEW",
+      "control": "UNUSUAL_NUMERIC_VALUE",
+      "dataset": "orders",
+      "issue_count": 215,
+      "severity": "MEDIUM",
+      "status": "WARNING"
+    },
+    {
+      "action": "STANDARDIZE",
+      "control": "CATEGORY_STANDARDIZED",
+      "dataset": "products",
+      "issue_count": 18,
+      "severity": "LOW",
+      "status": "WARNING"
+    },
+    {
+      "action": "DEDUPLICATE",
+      "control": "DUPLICATE_BUSINESS_KEY",
+      "dataset": "products",
+      "issue_count": 3,
+      "severity": "MEDIUM",
+      "status": "WARNING"
+    },
+    {
+      "action": "REVIEW",
+      "control": "UNUSUAL_NUMERIC_VALUE",
+      "dataset": "products",
+      "issue_count": 4,
+      "severity": "MEDIUM",
+      "status": "WARNING"
+    },
+    {
+      "action": "STANDARDIZE",
+      "control": "CATEGORY_STANDARDIZED",
+      "dataset": "support_tickets",
+      "issue_count": 15,
+      "severity": "LOW",
+      "status": "WARNING"
+    },
+    {
+      "action": "DEDUPLICATE",
+      "control": "DUPLICATE_BUSINESS_KEY",
+      "dataset": "support_tickets",
+      "issue_count": 6,
+      "severity": "MEDIUM",
+      "status": "WARNING"
+    },
+    {
+      "action": "QUARANTINE",
+      "control": "INVALID_CUSTOMER_REFERENCE",
+      "dataset": "support_tickets",
+      "issue_count": 10,
+      "severity": "HIGH",
+      "status": "WARNING"
+    },
+    {
+      "action": "QUARANTINE",
+      "control": "INVALID_DATE_SEQUENCE",
+      "dataset": "support_tickets",
+      "issue_count": 8,
+      "severity": "HIGH",
+      "status": "WARNING"
+    },
+    {
+      "action": "QUARANTINE",
+      "control": "MALFORMED_DATE",
+      "dataset": "support_tickets",
+      "issue_count": 6,
+      "severity": "HIGH",
+      "status": "WARNING"
+    },
+    {
+      "action": "QUARANTINE",
+      "control": "MISSING_REQUIRED_FIELD",
+      "dataset": "support_tickets",
+      "issue_count": 12,
+      "severity": "HIGH",
+      "status": "WARNING"
+    },
+    {
+      "action": "NONE",
+      "control": "PRIMARY_KEYS_PRESENT",
+      "dataset": "enterprise",
+      "issue_count": 0,
+      "severity": "CRITICAL",
+      "status": "PASS"
+    },
+    {
+      "action": "NONE",
+      "control": "DIMENSION_DOMAINS_VALID",
+      "dataset": "enterprise",
+      "issue_count": 0,
+      "severity": "CRITICAL",
+      "status": "PASS"
+    },
+    {
+      "action": "NONE",
+      "control": "DIMENSION_AMOUNTS_VALID",
+      "dataset": "enterprise",
+      "issue_count": 0,
+      "severity": "CRITICAL",
+      "status": "PASS"
+    },
+    {
+      "action": "NONE",
+      "control": "SOURCE_FILES_READABLE",
+      "dataset": "enterprise",
+      "issue_count": 0,
+      "severity": "CRITICAL",
+      "status": "PASS"
+    },
+    {
+      "action": "NONE",
+      "control": "CRITICAL_ERROR_THRESHOLD",
+      "dataset": "enterprise",
+      "issue_count": 0,
+      "severity": "CRITICAL",
+      "status": "PASS"
+    },
+    {
+      "action": "QUARANTINE",
+      "control": "ORDER_NOT_LOADED",
+      "dataset": "finance_transactions",
+      "issue_count": 60,
+      "severity": "HIGH",
+      "status": "WARNING"
+    }
+  ]
+}

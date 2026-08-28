@@ -1,0 +1,15 @@
+kpi_name,kpi_value,unit,definition
+net_revenue,119792439.77,USD,"Posted synthetic finance activity, net of refunds and adjustments"
+fulfilled_order_value,134301497.03,USD,Order value for completed and shipped orders
+order_count,7940,COUNT,Validated orders loaded to the warehouse
+average_order_value,19964.55,USD,Average value of completed and shipped orders
+ordering_customer_count,1199,COUNT,Distinct customers with a validated order
+ticket_volume,2464,COUNT,Validated support tickets
+ticket_resolution_rate,88.27,PERCENT,Share of tickets in resolved or closed status
+average_resolution_hours,86.97,HOURS,Average elapsed time for resolved tickets
+ticket_sla_rate,43.26,PERCENT,Resolved tickets within priority-based SLA thresholds
+cancellation_rate,9.02,PERCENT,Cancelled orders as a share of loaded orders
+pending_finance_transactions,239,COUNT,Finance transactions awaiting posting
+exception_count,543,COUNT,"Detected source-quality exceptions, including remediated records"
+quarantined_record_count,174,COUNT,Unsafe fact records excluded with audit evidence
+data_quality_score,98.22,PERCENT,Issue-weighted score across unique source records
