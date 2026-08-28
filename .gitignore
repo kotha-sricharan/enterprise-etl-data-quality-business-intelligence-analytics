@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.DS_Store
+
+# Reproducible runtime artifacts; reporting outputs remain versioned.
+data/raw/*.csv
+!data/raw/.gitkeep
+data/processed/*.db
+!data/processed/.gitkeep
